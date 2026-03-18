@@ -66,5 +66,6 @@ COMMUNES = [
     {"name": "Guigou", "province": "Boulemane", "type": "Rurale", "search_name": "Guigou, Morocco"},
 ]
 
-def get_all_communes():
+# Remplacez la fin de communes.py par ceci :
+def get_all_communes(include_rural=True):
     return COMMUNES
